@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Narendra Mecharapu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-gradient" href="index.html">NM.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="bi bi-list" style="color: var(--text-primary); font-size: 1.5rem;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <button id="theme-toggle" class="theme-toggle">
+                            <i class="bi bi-sun-fill"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header mt-5">
+        <div class="container reveal">
+            <h1 class="page-title fw-bold text-gradient">Let's Connect</h1>
+            <p class="fs-5 text-secondary">Feel free to reach out for collaborations or just a friendly hello.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                
+                <!-- Contact Information -->
+                <div class="col-lg-5 reveal">
+                    <div class="glass-panel p-4 p-md-5 h-100">
+                        <h3 class="mb-4">Contact Information</h3>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="me-3 fs-3 text-gradient"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <h6 class="mb-1 text-secondary">Email</h6>
+                                <a href="mailto:nirikshanmecharapu@gmail.com" class="text-primary fw-bold text-decoration-none">nirikshanmecharapu@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="me-3 fs-3 text-gradient"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <h6 class="mb-1 text-secondary">Phone</h6>
+                                <span class="fw-bold">7013094974</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="me-3 fs-3 text-gradient"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <h6 class="mb-1 text-secondary">Location</h6>
+                                <span class="fw-bold">Vijayawada, Andhra Pradesh</span>
+                            </div>
+                        </div>
+
+                        <h5 class="mb-3">Connect with me</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="#" class="btn btn-outline-custom"><i class="bi bi-linkedin me-1"></i> LinkedIn</a>
+                            <a href="#" class="btn btn-outline-custom"><i class="bi bi-code-slash me-1"></i> LeetCode</a>
+                            <a href="assets/documents/Narendra_Mecharapu_Resume.pdf" target="_blank" class="btn btn-outline-custom"><i class="bi bi-file-earmark-person me-1"></i> Resume</a>
+                            <a href="mailto:nirikshanmecharapu@gmail.com" class="btn btn-custom"><i class="bi bi-envelope me-1"></i> Email Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7 reveal">
+                    <div class="glass-panel p-4 p-md-5 h-100">
+                        <h3 class="mb-4">Send a Message</h3>
+                        <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent successfully! (This is a frontend demo)');">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Project Inquiry" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-custom w-100 py-2 fs-5">Submit Message <i class="bi bi-send ms-2"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="social-links mb-4">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="#"><i class="bi bi-code-slash"></i></a>
+            </div>
+            <p class="mb-0 text-secondary">&copy; 2026 Narendra Mecharapu. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
